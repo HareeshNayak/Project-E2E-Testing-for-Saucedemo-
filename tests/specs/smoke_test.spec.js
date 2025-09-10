@@ -2,7 +2,7 @@
 import { test } from '@playwright/test';
 import { LoginPage } from '../pages/LoginPage';
 import { InventoryPage } from '../pages/InventoryPage';
-import { CartPage } from '../pages/cartPage';
+import { CartPage } from '../pages/CartPage';
 import { CheckoutPage } from '../pages/CheckoutPage';
 
 test('End-to-end checkout using POM', async ({ page }) => {
