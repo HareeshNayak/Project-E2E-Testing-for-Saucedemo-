@@ -28,7 +28,7 @@ jobs:
         run: npx playwright install --with-deps
 
       - name: Run Playwright tests
-        run: npx playwright test specs/login.test.js --reporter=html --project=chromium
+        run: npx playwright test specs/smoke_test.spec.js --reporter=html --project=chromium
 
       - name: Upload HTML report
         uses: actions/upload-artifact@v4
